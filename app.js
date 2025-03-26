@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const port = 1000;
 
+app.use(express.static('public'));
+
 app.get('/', (req, res) => {
     console.log('response to client was sent for /')
 
@@ -16,23 +18,23 @@ app.get('/bacheca', (req, res) => {
     const posts = [
         {
             name: 'ciambellone',
-            image: 'img/ciambellone.jpeg'
+            image: 'images/ciambellone.jpeg'
         },
         {
             name: 'cracker con barbabietola',
-            image: 'img/cracker_barbabietola.jpeg'
+            image: 'images/cracker_barbabietola.jpeg'
         },
         {
             name: 'pane fritto dolce',
-            image: 'img/pane_fritto_dolce.jpeg'
+            image: 'images/pane_fritto_dolce.jpeg'
         },
         {
             name: 'pasta con barbabietola',
-            image: 'img/pasta_barbabietola.jpeg'
+            image: 'images/pasta_barbabietola.jpeg'
         },
         {
             name: 'torta paesana',
-            image: 'img/torta_paesana.jpeg'
+            image: 'images/torta_paesana.jpeg'
         }
     ]
 
