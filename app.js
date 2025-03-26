@@ -19,30 +19,30 @@ app.get('/bacheca', (req, res) => {
         {
             titolo: 'ciambellone',
             contenuto: 'ricetta & descrizione del dolce',
-            image: 'images/ciambellone.jpeg',
+            image: '/images/ciambellone.jpeg',
             tags: ['#homemade', '#buonissimo']
         },
         {
             titolo: 'cracker con barbabietola',
             contenuto: 'ricetta & descrizione del dolce',
-            image: 'images/cracker_barbabietola.jpeg',
+            image: '/images/cracker_barbabietola.jpeg',
             tags: ['#homemade', '#buonissimo']
         },
         {
             titolo: 'pane fritto dolce',
             contenuto: 'ricetta & descrizione del dolce',
-            image: 'images/pane_fritto_dolce.jpeg',
+            image: '/images/pane_fritto_dolce.jpeg',
             tags: ['#homemade', '#buonissimo']
         },
         {
             titolo: 'pasta con barbabietola',
             contenuto: 'ricetta & descrizione del dolce',
-            image: 'images/pasta_barbabietola.jpeg',
+            image: '/images/pasta_barbabietola.jpeg',
             tags: ['#homemade', '#buonissimo']
         },
         {
             titolo: 'torta paesana',
-            contenuto: 'ricetta & descrizione del dolce',
+            contenuto: '/ricetta & descrizione del dolce',
             image: 'images/torta_paesana.jpeg',
             tags: ['#homemade', '#buonissimo']
         }
