@@ -17,24 +17,34 @@ app.get('/bacheca', (req, res) => {
 
     const posts = [
         {
-            name: 'ciambellone',
-            image: 'images/ciambellone.jpeg'
+            titolo: 'ciambellone',
+            contenuto: 'ricetta & descrizione del dolce',
+            image: 'images/ciambellone.jpeg',
+            tags: ['#homemade', '#buonissimo']
         },
         {
-            name: 'cracker con barbabietola',
-            image: 'images/cracker_barbabietola.jpeg'
+            titolo: 'cracker con barbabietola',
+            contenuto: 'ricetta & descrizione del dolce',
+            image: 'images/cracker_barbabietola.jpeg',
+            tags: ['#homemade', '#buonissimo']
         },
         {
-            name: 'pane fritto dolce',
-            image: 'images/pane_fritto_dolce.jpeg'
+            titolo: 'pane fritto dolce',
+            contenuto: 'ricetta & descrizione del dolce',
+            image: 'images/pane_fritto_dolce.jpeg',
+            tags: ['#homemade', '#buonissimo']
         },
         {
-            name: 'pasta con barbabietola',
-            image: 'images/pasta_barbabietola.jpeg'
+            titolo: 'pasta con barbabietola',
+            contenuto: 'ricetta & descrizione del dolce',
+            image: 'images/pasta_barbabietola.jpeg',
+            tags: ['#homemade', '#buonissimo']
         },
         {
-            name: 'torta paesana',
-            image: 'images/torta_paesana.jpeg'
+            titolo: 'torta paesana',
+            contenuto: 'ricetta & descrizione del dolce',
+            image: 'images/torta_paesana.jpeg',
+            tags: ['#homemade', '#buonissimo']
         }
     ]
 
